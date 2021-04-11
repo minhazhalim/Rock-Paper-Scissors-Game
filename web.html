@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>Rock Paper Scissors Game</title>
+     <link rel="stylesheet" href="styling.css">
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' integrity='sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==' crossorigin='anonymous'/>
+     <script src="game.js" defer></script>
+</head>
+<body>
+     <div class="container">
+          <header class="header">
+               <h1>rock paper scissors</h1>
+               <button class="restart-button" id="restart">restart game</button>
+               <div class="score" id="score">
+                    <p>me: 0</p>
+                    <p>computer: 0</p>
+               </div>
+          </header>
+          <div class="choices">
+               <i class="choice fas fa-hand-rock fa-10x" id="rock"></i>
+               <i class="choice fas fa-hand-paper fa-10x" id="paper"></i>
+               <i class="choice fas fa-hand-scissors fa-10x" id="scissor"></i>
+          </div>
+     </div>
+     <div class="modal"><div class="modal-content" id="result"></div></div>
+</body>
+</html>
